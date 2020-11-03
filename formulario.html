@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+    <figure>
+        <img src="img/logo.png" alt="Logo do CESAE" class="imagem">
+    </figure>
+    <!--BR para passar o link para linha abaixo do logo-->
+    <br>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <nav class=navfooter>
+        <a href="https://www.cesae.pt/">Ir para página oficial</a>|
+        <a href="index.html">Página Inicial (com tags semanticas)</a>|
+        <a href="paginainicialsemsemantica.html">Página Inicial (sem tags semantica)</a>|
+        <a href="multimedia.html">Multimédia</a>|
+        <a href="formulario.html">Formulário</a>|
+    </nav class=navfooter>
+
+
+
+
+    <form>
+        <table class="tabelaformulario">
+
+            <tr>
+                <td> <label for="Nome">Nome:</label> 
+                <input type="text" id="Nome" name="Nome"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email"></td>
+            </tr>
+
+            <tr>
+                <td> Género:
+
+                <input type="radio" id="Masculino" name="Genero" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                <input type="radio" id="Feminino" name="Genero" value="Feminino">
+                    <label for="Feminino">Feminino</label></td>
+            </tr>
+
+            <tr>
+
+                <td> <label for="Calendario">Data Atual:</label>
+                    <input type="date" id="Calendario"></td>
+
+
+            </tr>
+
+            <tr>
+                <td><label for="Turma">Turma:</label>
+                    <select name="Turma" id="Turma">
+                        <option value="Web Developer">Web Developer</option>
+                        <option value="aaaaa">aaaaa</option>
+                        <option value="bbbbb">bbbbb</option>
+                        <option value="ccccc">ccccc</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td> <label for="Comentario">Comentario:</label>
+                    <textarea class="caixatexto" name="Texto" id="Comentario:" cols="30" rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="reset" value="Apagar">
+                    <input type="submit" value="Enviar"></td>
+            </tr>
+
+
+
+
+
+        </table>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class=navfooter>
+        <h4>Copyright 2020 CESAE | Todos os direitos reservador | Desenvolvido por... mim :)</h4>
+    </footer>
+</body>
+
+</html>

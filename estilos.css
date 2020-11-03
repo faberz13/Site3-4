@@ -1,0 +1,80 @@
+body {
+  background-color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: white;
+  text-align: center;
+  background-color: grey;
+}
+
+.tabela {
+  border-color: lightblue;
+  border-style: dashed;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+}
+
+
+.navfooter {
+  background-color: grey;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.videoaudio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.caixatexto {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+
+td {
+  font-weight: bold;
+}
+
+.tabelaformulario {
+  border-color: rgb(0, 0, 0);
+  padding: 15px;
+  text-align: center;
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+
+}
+
+textarea {
+  resize: none;
+  margin: 0 auto;
+}
+
+
+input[type=text],
+textarea {
+
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label {
+  padding: 4 px;
+}
