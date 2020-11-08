@@ -1,6 +1,7 @@
 body {
   background-color: bisque;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  ;
 }
 
 a {
@@ -15,6 +16,9 @@ a {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  letter-spacing: 0.5ch;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .imagem {
@@ -22,6 +26,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 50;
+  position: fixed;
+  top: 0px;
+  left: 75px;
 }
 
 
@@ -30,7 +37,9 @@ a {
   text-align: center;
   margin: 10px;
   padding: 5px;
-
+  position: fixed;
+  top: 70px;
+  left: 451px;
 }
 
 .videoaudio {
@@ -77,4 +86,16 @@ textarea {
 
 label {
   padding: 4 px;
+}
+
+
+footer {
+  background-color: grey;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  right: 0px;
 }
